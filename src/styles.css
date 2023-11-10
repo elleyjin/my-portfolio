@@ -17,6 +17,8 @@ h3 {
 
 h1 {
   font-size: 96px;
+  line-height: 1;
+  margin: 15px auto;
 }
 
 h2 {
@@ -136,4 +138,14 @@ p {
 .img-fluid {
   box-shadow: var(--box-shadow);
   max-width: 100%;
+}
+
+@media (max-width: 576px) {
+  .contact-title {
+    font-size: 30pt;
+  }
+
+  .social-link {
+    width: 35px;
+  }
 }
