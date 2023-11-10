@@ -38,8 +38,12 @@ p {
   margin-bottom: 0;
 }
 
-navibar {
+/* navibar {
   margin: 0 100px;
+} */
+
+.navbar-brand {
+  max-width: 80%;
 }
 
 .button-primary {
@@ -120,6 +124,7 @@ navibar {
   margin: 0 auto;
 }
 
-.about-img img {
+.img-fluid {
   box-shadow: var(--box-shadow);
+  max-width: 100%;
 }
