@@ -13,11 +13,19 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"
   ></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BY7HTCHY31"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-BY7HTCHY31');
+    </script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Elley Chan</a>
+        <a class="navbar-brand" href="/index.html">Elley Chan</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -31,9 +39,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            <a class="nav-link" href="about.html">About me</a>
-            <a class="nav-link" href="about.html/#contact">Contact</a>
+            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+            <a class="nav-link" href="/about.html">About me</a>
+            <a class="nav-link" href="/about.html#contact">Contact</a>
         </div>
       </div>
     </nav>
@@ -61,11 +69,19 @@
       </div>
     </div>
     </div>
-    <div id="contact" class="mt-5">
-      <h2>📮 Contact me</h2>
-      <a href="mailto:elley_el@naver.com" class="email-link">
-        elley_el@naver.com
+    <div id="contact" class=" mt-5">
+        <h2 class="m-3">📮 Contact me</h2>
+        <div class="d-flex justify-content-center">
+      <a href="mailto:elley_el@naver.com">
+        <img src="/images/email.png" class="m-1 social-link" alt="email-logo" width="40px">
       </a>
+      <a href="https://github.com/elleyjin/my-portfolio">
+        <img src="/images/Github_logo_PNG7.png" class="m-1 social-link" alt="github-logo" width="40px">
+      </a>
+      <a href="https://www.linkedin.com/in/ee-lin-chan-9478bb86/">
+        <img src="/images/linkedin-logo.png" class="m-1 social-link" alt="linked-in-logo" width="40px">
+      </a>  
+    </div>
     </div>
   </body>
 </html>
